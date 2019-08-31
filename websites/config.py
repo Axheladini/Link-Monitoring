@@ -1,3 +1,3 @@
-chromdrive = "C:\linkchecker\chromedriver.exe"
+chromdrive = "C:\linkmonitoring\chromedriver.exe"
 
 
