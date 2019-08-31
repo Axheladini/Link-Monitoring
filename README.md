@@ -21,10 +21,10 @@ At first, you create a dataset with links that you need to test. There is no use
 3. Pull, clone or download the repository from GitHub <a href="https://github.com/Axheladini/Link-Monitoring" target="_blank">Link</a> The tool comes with pre-filed data (important links dataset) from altervista.org pages.
 At this step from cmd point to your local repository and run the command:
 <p></p> 
-<b><i>&nbsp;&nbsp;&nbsp;python index.py</i></b> 
+<b><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python index.py</i></b> 
 <br>
 <p></p>
-&nbsp;&nbsp;&nbsp;If Python is installed correctly the tool will start to monitor and controll all important links from the dataset. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If Python is installed correctly the tool will start to monitor and controll all important links from the dataset. 
 
 
 ## Importing your important links ( the dataset)
