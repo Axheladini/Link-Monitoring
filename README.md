@@ -19,7 +19,13 @@ At first, you create a dataset with links that you need to test. There is no use
 2. Selenium uses chrome browser in headless mode to point to each page and find all links. Therefore, you will need to download the chromdriver.exe version based on your chrome browser version. Click on this <a href="https://chromedriver.chromium.org/" target="_blank">link</a> and download the version corresponding to your chrome browser. Copy the exe file to “C:\linkmonitoring\chromedriver.exe” (this path is important because the tool expects it exactly in this location).
 
 3. Pull, clone or download the repository from GitHub <a href="https://github.com/Axheladini/Link-Monitoring" target="_blank">Link</a> The tool comes with pre-filed data (important links dataset) from altervista.org pages.
-At this step from cmd point to your local repository and run the command:<br> <b><i>python index.py</i></b> <br>If Python is installed correctly the tool will start to monitor and controll all important links from the dataset. 
+At this step from cmd point to your local repository and run the command:
+<p></p>
+<br> 
+<b><i>python index.py</i></b> 
+<br>
+<p></p>
+If Python is installed correctly the tool will start to monitor and controll all important links from the dataset. 
 
 
 ## Importing your important links ( the dataset)
