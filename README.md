@@ -16,11 +16,15 @@ At first, you create a dataset with links that you need to test. There is no use
 
 1. If Python is not installed at your machine, dowanload it from <a href="https://www.python.org/downloads/">www.python.org/downloads/</a> . I have installed Python 3.6
 
-2. Selenium uses chrome browser in headless mode to point to each page and find all links. Therefore, you will need to download the chromdriver.exe version based on your chrome browser version. Click on this <a href="https://chromedriver.chromium.org/" target="_blank">link</a> and download the version corresponding to your chrome browser. Copy the exe file to “C:\linkmonitoring\chromedriver.exe” (this path is important because the tool expects this file exactly in this location).
+2. Selenium uses chrome browser in headless mode to point to each page and find all links. Therefore, you will need to download the chromdriver.exe version based on your chrome browser version. Click on this <a href="https://chromedriver.chromium.org/" target="_blank">link</a> and download the version corresponding to your chrome browser. Copy the exe file to “C:\linkmonitoring\chromedriver.exe” (this path is important because the tool expects it exactly in this location).
 
-3. Pull, clone or download the repository from GitHub <a href="https://github.com/Axheladini/Link-Monitoring" target="_blank">Link</a> The tool comes with pre-filed data (important link dataset) from altervista.org pages.
-At this step from cmd point to your local repository and write the comment: <b><i>python index.py</i></b> , if Python is installed correctly 
-the tool will start to monitor important links from the dataset. 
+3. Pull, clone or download the repository from GitHub <a href="https://github.com/Axheladini/Link-Monitoring" target="_blank">Link</a> The tool comes with pre-filed data (important links dataset) from altervista.org pages.
+At this step from cmd point to your local repository and run the command:<br> <b><i>python index.py</i></b> <br>If Python is installed correctly the tool will start to monitor and controll all important links from the dataset. 
+
+
+## Importing your important links ( the dataset)
+
+1. This is the most important step, defining your dataset with important links. At this point, it is an advantage if you have object oriented programming knowledge and skills but I will try to explain the whole process in details so any WebDev, DevOps or Webmaster can understand it.
 
 ## Contributing
 
