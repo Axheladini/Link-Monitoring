@@ -1,4 +1,4 @@
-# LinkMonitoirng
+# LinkMonitoring
 
 Automated tool for monitoring important links for any website or web app.
 Current version is available only for windows machines and I am planning to convert it to Linux and Mac as soon as I can. 
@@ -14,7 +14,7 @@ At first, you create a dataset with links that you need to test. There is no use
 
 ## Installation
 
-TODO: Describe the installation process
+1. If you
 
 ## Usage
 
