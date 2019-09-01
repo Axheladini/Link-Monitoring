@@ -3,7 +3,7 @@
 Automated tool for monitoring important links for any website or web App.
 Current version is available only for windows machines. I have a plan to convert it for Linux and Mac but as usual it will take some time :) 
 
-This is my first tool build with Python. If anyone finds any issues or a way to optimise the code feel free to comment and  contribute. 
+This is my first tool build with Python. If anyone finds issues or a way to optimise the code feel free to comment and  contribute. 
 
 In general LinkMonitoirng is a tool that helps for monitoring and controlling if important links of your website or any other 
 web App are at a given place and working as expected. Actually, it's a pre or post deployment tool to check and control automatically your important links. Following the trend of DevOps and having in mind that human testings are not very effective we tend to automate as much as we can. LinkMonitoirng checks a given link two times at first it checks if a link is available at a given position (within DOM) for a specific page and then it checks for the http request status of the same link. This tool is useful for websites with high traffic, important business processes and important content which are updated at least once a day. On my daily work this tool monitors over 500 important links, execution time around 3 mins. We have connected it with Jenkins  and the whole monitoring proccess is automated. 
