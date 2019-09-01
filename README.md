@@ -38,30 +38,35 @@ At this step from cmd point to your local repository and run the command:
 
 1. This is the most important step, defining your dataset with important links. At this point it is an advantage if you have object oriented programming knowledge and skills but I will try to explain the whole process in details so any WebDev, DevOps or Webmaster can understand it. 
 
-<i><b>Before going into details please check english.py and deutsch.py files under websites directory, the whole dataset logic is within these files.</b></i> 
+<i>Before going into details please check english.py and deutsch.py files under websites directory, the whole dataset logic is within these files.</i> 
 
-    * The whole dataset of important link is under websites directory.
-    * Do not update, change or modify <b>__init__.py</b> and <b>config.py</b> files, these are important files for the tool to run.
-    * I always create a separate dataset file for each language of the website. As you can see inside websites directory I have created engllish.py and deutsch.py. You can name these files as you wish but you must follow one convention: use only letters and no special characters (like: *&^%$#@!~_+-?/).
-    * Each dataset file should have the header code where some modules are imported. (Check the line that starts with DO NOT on english.py file).
-
+* The whole dataset of important link is under websites directory.
+* Do not update, change or modify __init__.py and config.py files, these are important files for the tool to run.
+* I always create a separate dataset file for each language of the website. As you can see inside websites directory I have created engllish.py and deutsch.py. You can name these files as you wish but you must follow one convention: use only letters and no special characters (like: *&^%$#@!~_+-?/).
+* Each dataset file should have the header code where some modules are imported. (Check the line that starts with DO NOT on english.py file).<br>
 2. Create the object for the language of the pages where your important links are. First parameter is The name of the language and the second parameter is the ISO 2 code of a language/Country: 
+    
     ```python
     lang = language.Language("English", "en")
     ```
 
 3. Create the first page with important links. First parameter is the name of the page and the second parameter is the link of the page: 
 
-    `page_1 = language.Page("Home page", "https://en.wikibooks.org/wiki/Main_Page")`
+    ```python
+    page_1 = language.Page("Home page", "https://en.wikibooks.org/wiki/Main_Page")
+    ```
 
 4. Assign the page to the language:
 
-    `lang.push_page(page_1)`
-
+    ```python
+    lang.push_page(page_1)
+    ```
 5. This way you can add as much as you want pages for a given language or websites.
 6. Define important links for a given page.
 
-    `link1 = language.Linku("Featured Books", "https://en.wikibooks.org/wiki/Wikibooks:Featured_books", "", "0", "0", "0", "check_by_parent_id", "n-Featured-books", "")`
+    ```python
+     link1 = language.Linku("Featured Books", "https://en.wikibooks.org/wiki/Wikibooks:Featured_books", "", "0", "0", "0", "check_by_parent_id", "n-Featured-books", "")
+    ```
 
 ###### Repeat this for all-important links that are present on page_1.  * 2nd, 7nth and 8th attributes you will need to find them within the source code of the page where your important links are
 <b>Attributes:</b> 
@@ -120,13 +125,15 @@ Link text</a></p>`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 9</b> – Leave this empty, this field is used from LinkMonitoring to add details based on link status.<br>
 
 6. Connect each important link with corresponding page :
-
-    ` page_1.push_link(link1)`
+     
+     ```python
+     page_1.push_link(link1)
+     ```
 
 Complete code on this stage for english.py would look like this: :
 
-<pre>
-`#create the language object*/
+```python
+#create the language object
 lang = language.Language("English", "en") 
 
 #create the object of the first page where important links are*
@@ -139,8 +146,8 @@ lang.push_page(page_1)
 link1 = language.Linku("Featured Books", "https://en.wikibooks.org/wiki/Wikibooks:Featured_books", "", "0", "0", "0", "check_by_parent_id", "n-Featured-books", "")
 
 #Assign first important link object to the first page
-page_1.push_link(link1)`
-</pre>
+page_1.push_link(link1)
+```
 
 6. After you have added all pages and important links by repeating all sub steps on cmd point to your local repository and run the command: <b>python index.py</b> the automated process will start. The execution time will depend on the number of links. When the process will end a nice HTML report will show up with details for each link. Do not forget to update the dataset when you update or remove some important link from your website.
 
