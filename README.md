@@ -34,7 +34,28 @@ At this step from cmd point to your local repository and run the command:
     * The whole dataset of important link is under websites directory.
     * Do not update, change or modify __init__.py and config.py files, these are important files for the tool to run.
     * I always create a separate dataset file for each language of the website for which I need to test important links. If you can see inside websites directory I have created engllish.py, deutsch.py … You can name these files as you wish but you must follow one convention: use only letters, no special characters (like: *&^%$#@!~_+-?/).
-    * Each dataset file should have the header code where some modules are imported. (Check the line that starts with DO NOT on english.py file)
+    * Each dataset file should have the header code where some modules are imported. (Check the line that starts with DO NOT on english.py file).
+
+2. Create the object for the language of the pages where your important links are. First parameter is The name of the language and the second parameter is the ISO 2 code of a language/Country: 
+
+`lang = language.Language("English", "en")`
+
+
+3. Create the object for the language of the pages where your important links are. First parameter is The name of the language and the second parameter is the ISO 2 code of a language/Country: 
+
+`page_1 = language.Page("Home page", "https://en.wikibooks.org/wiki/Main_Page")`
+
+4. Assign the page to the language:
+
+`lang.push_page(page_1)`
+
+5. This way you can add as much as you want pages for a given language or websites.
+6. Define important links for a given page.
+
+`link1 = language.Linku("Featured Books", "https://en.wikibooks.org/wiki/Wikibooks:Featured_books", "", "0", "0", "0", "check_by_parent_id", "n-Featured-books", "")`
+
+###### this for all-important links that are present on page_1.  * 2nd, 7nth and 8th attributes you will need to find them inside the source code of the page where your important links are
+
 ## Contributing
 
 1. Fork it!
