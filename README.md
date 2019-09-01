@@ -105,8 +105,11 @@ At this step from cmd point to your local repository and run the command:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
    ```html
-   <p><a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">
-   Link text</a></p>
+   <pre>
+   <p>
+   	<a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">Link text</a>
+   </p>
+   </pre>
    ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example, LinkMonitoring will find and test the link based on <b>class name</b>. Having in mind that CSS classes <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;are not unique, I would suggest adding two classes when you use <b>check_by_class</b> function to find the link.</b>
