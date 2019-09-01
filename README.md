@@ -30,7 +30,7 @@ At this step from cmd point to your local repository and run the command:
 ## Importing your important links ( the dataset)
 
 1. This is the most important step, defining your dataset with important links. At this point, it is an advantage if you have object oriented programming knowledge and skills but I will try to explain the whole process in details so any WebDev, DevOps or Webmaster can understand it. 
-<i>Before going into details and reading bellow steps please check english.py and deutsch.py files under websites directory, the whole dataset logic is within these files.</i> 
+<i><br>Before going into details and reading bellow steps please check english.py and deutsch.py files under websites directory, the whole dataset logic is within these files.</i> 
 
     * The whole dataset of important link is under websites directory.
     * Do not update, change or modify __init__.py and config.py files, these are important files for the tool to run.
@@ -55,7 +55,23 @@ At this step from cmd point to your local repository and run the command:
 
     `link1 = language.Linku("Featured Books", "https://en.wikibooks.org/wiki/Wikibooks:Featured_books", "", "0", "0", "0", "check_by_parent_id", "n-Featured-books", "")`
 
-###### this for all-important links that are present on page_1.  * 2nd, 7nth and 8th attributes you will need to find them inside the source code of the page where your important links are
+###### Repeat this for all-important links that are present on page_1.  * 2nd, 7nth and 8th attributes you will need to find them inside the source code of the page where your important links are
+
+<b>Attribute 1</b> – Link name / Add the link name
+
+<b>Attribute 2</b> – link URL / Add the URL of the link (complete link including the https://)
+
+<b>Attribute 3</b> – Link that will be added by linkChecker / Must stay empty
+
+<b>Attribute 4</b> – http status of the link, added by linkChecker adds it / Add 0
+
+<b>Attribute 5</b> – checked, 1 or 0 shows if link has been controlled or not, LinkChecker updates the value / Add 0
+
+<b>Attribute 6</b> – status, 1 or 0 shows the status of the link, 1 if it passes all the tests and 0 if there is some issue / Add 0
+
+<b>Attribute 7</b> – LinkMonitoring has five functions which help on finding the URL of the link. What value to add here depends on how your links are constructed. Available values: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>, <i>check_by_class</i>, <i>check_by_link_id</i>
+
+
 
 ## Contributing
 
