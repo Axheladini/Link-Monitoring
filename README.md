@@ -104,7 +104,7 @@ At this step from cmd point to your local repository and run the command:
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. check_by_class
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```html
+   ```html
    <p>
    	<a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">Link text</a>
    </p>
