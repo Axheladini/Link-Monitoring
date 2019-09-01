@@ -31,7 +31,7 @@ At this step from cmd point to your local repository and run the command:
 <b><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python index.py</i></b> 
 <br>
 <p></p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>If Python is installed correctly the tool will start to monitor and controll all important links from the dataset. At the end an detailed HTML report will show up.</i> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>If Python is installed correctly the tool will start to monitor and controll all important links from the dataset. At the end the detailed HTML report will show up.</i> 
 
 
 ## Importing your important links ( the dataset )
