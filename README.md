@@ -69,7 +69,7 @@ At this step from cmd point to your local repository and run the command:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 4</b> – http status of the link, added by LinkMonitoring / Initial value 0<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 5</b> – checked, 1 or 0 shows if link has been controlled or not, LinkMonitoring updates the value / Initial value 0<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 6</b> – status, 1 or 0 shows the status of the link, 1 if no errors and 0 if there is some error / Initial value 0<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 7</b> – LinkMonitoring has five functions which are helping on finding the URL of the link. What value to add here<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; depends on how your links are constructed. Available values: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>check_by_class</i>, <i>check_by_link_id</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 7</b> – LinkMonitoring has five functions which are helping on finding the URL of the link. Which value to add <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; depends on how your links are constructed. Available values: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>check_by_class</i>, <i>check_by_link_id</i>
 
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. check_by_parent_id
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
