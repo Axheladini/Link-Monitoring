@@ -93,7 +93,7 @@ At this step from cmd point to your local repository and run the command:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<p><a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">
 Link text</a></p>`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example, LinkChecker will find and control the link based on <b>class name</b>. Having in mind that CSS classes are not unique, I would suggest adding two classes when you use <b>check_by_class</b> function to find the link.</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example, LinkChecker will find and control the link based on <b>class name</b>. Having in mind that CSS classes <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;are not unique, I would suggest adding two classes when you use <b>check_by_class</b> function to find the link.</b>
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. check_by_link_id
 
@@ -103,6 +103,33 @@ Link text</a></p>`
 Link text</a></p>`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example, LinkChecker will find and control the link based on <b>element id</b>. Current example: <b>link_main_id</b>
+
+###### * Suggestion: If the way that the links are presented on the web depends on you, I would suggest adding unique id names or unique title attributes because those two functions can find the link in faster and better way.
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 8</b> – This attribute depends from Attribute 7. You will need to find this value in the source code based on the function you will use on Attribute 7 (Check above examples)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 9</b> – Leave this empty, this field is used from linkChecker to add details based on link status.
+
+6. Connect each important link with corresponding page :
+
+    ` page_1.push_link(link1)`
+
+Connect each important link with corresponding page :
+
+  ` #create the language object*/
+lang = language.Language("English", "en") 
+
+#create the object of the first page where important links are*
+page_1 = language.Page("Home page", " https://en.altervista.org/")
+
+#push this page to language object
+lang.push_page(page_1)
+
+#create the first important link object
+Link1 = language.Linku("Start Now", "https://en.altervista.org/registration.php", "", "0", "0", "0", "check_by_class", "button large", "")
+
+#Assign first important link object to the first page
+page_1.push_link(link1)`
 
 ## Contributing
 
