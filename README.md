@@ -56,7 +56,7 @@ At this step from cmd point to your local repository and run the command:
     `link1 = language.Linku("Featured Books", "https://en.wikibooks.org/wiki/Wikibooks:Featured_books", "", "0", "0", "0", "check_by_parent_id", "n-Featured-books", "")`
 
 ###### Repeat this for all-important links that are present on page_1.  * 2nd, 7nth and 8th attributes you will need to find them inside the source code of the page where your important links are
-
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 1</b> – Link name / Add the link name
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 2</b> – link URL / Add the URL of the link (complete link including the https://)
@@ -78,37 +78,37 @@ At this step from cmd point to your local repository and run the command:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example LinkChecker will find and control the link based on parent id, in our example its <b>parent_id</b>
 
-#### 2 – check_by_text
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 – check_by_text
 
-DOM block example:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-`<p><a href="https://www.somedomain/somepath/">Sample</a></p>`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<p><a href="https://www.somedomain/somepath/">Sample</a></p>`
 
-In this example LinkChecker will find and control the link based on <b>link text</b> in this example its <b>Sample</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example LinkChecker will find and control the link based on <b>link text</b> in this example its <b>Sample</b>
 
-#### 3 – Check_by_tittle
-DOM block example:
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 – Check_by_tittle
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-`<p><a href="https://www.somedomain/somepath/" title="Some Link title">Link text</a></p>`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<p><a href="https://www.somedomain/somepath/" title="Some Link title">Link text</a></p>`
 
-In this example LinkChecker will find and control the link based on <b>title</b> attribute in this example is <b>Some Link title</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example LinkChecker will find and control the link based on <b>title</b> attribute in this example is <b>Some Link title</b>
 
-#### 4 – check_by_class
-DOM block example:
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 – check_by_class
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-`<p><a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<p><a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">
 Link text</a></p>`
 
-In this example, LinkChecker will find and control the link based on <b>class name</b>. Having in mind that CSS classes are not unique, I would suggest adding two classes when you use <b>check_by_class</b> function to find the link.</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example, LinkChecker will find and control the link based on <b>class name</b>. Having in mind that CSS classes are not unique, I would suggest adding two classes when you use <b>check_by_class</b> function to find the link.</b>
 
-#### 5 – check_by_link_id
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 – check_by_link_id
 
-DOM block example:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-`<p><a href="https://www.somedomain/somepath/" id="link_main_id">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<p><a href="https://www.somedomain/somepath/" id="link_main_id">
 Link text</a></p>`
 
-In this example, LinkChecker will find and control the link based on <b>element id</b>. Current example: <b>link_main_id</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example, LinkChecker will find and control the link based on <b>element id</b>. Current example: <b>link_main_id</b>
 
 ## Contributing
 
