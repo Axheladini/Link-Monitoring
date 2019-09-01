@@ -116,7 +116,8 @@ Link text</a></p>`
 
 Connect each important link with corresponding page :
 
-  ` #create the language object*/
+<pre>
+` #create the language object*/
 lang = language.Language("English", "en") 
 
 #create the object of the first page where important links are*
@@ -130,6 +131,7 @@ Link1 = language.Linku("Start Now", "https://en.altervista.org/registration.php"
 
 #Assign first important link object to the first page
 page_1.push_link(link1)`
+</pre>
 
 ## Contributing
 
