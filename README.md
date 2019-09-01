@@ -10,7 +10,7 @@ web app  are working as expected. Actually, it's a pre or post deployment tool t
 
 ## How it works
 
-At first, you create a dataset with links that you need to test. There is no user interface for importing your important links with the current version, therefore you will need to add important links as python objects ( Check Usage section ). Python by using Selenium with headless chrome (browser) points to each page where we have our important links, finds each important link by using one out of four functions: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>, <i>check_by_class</i>, check_by_link_id</i>. The link found is compared with the one in the dataset and at the end Python checks for the HTTP request code of the link. After all links are visited and controlled the tool  generates an in detail html report with the results for each link.
+At first, you create a dataset with links that you need to test. There is no user interface for importing your important links with the current version, therefore you will need to add important links as python objects ( Check Usage section ). Python by using Selenium with headless chrome (browser) points to each page where we have our important links, finds each important link by using one out of four functions: <i><b>check_by_parent_id</b></i>, <i><b>check_by_text</b></i>, <i><b>check_by_tittle</b></i>, <i><b>check_by_class</b></i>, <i><b>check_by_link_id</b></i>. The link found is compared with the one in the dataset and at the end Python checks for the HTTP request code of the link. After all links are visited and controlled the tool  generates an in detail html report with the results for each link.
 
 ## Usage
 
