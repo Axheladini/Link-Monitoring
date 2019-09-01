@@ -57,21 +57,21 @@ At this step from cmd point to your local repository and run the command:
 
 ###### Repeat this for all-important links that are present on page_1.  * 2nd, 7nth and 8th attributes you will need to find them inside the source code of the page where your important links are
 
-&nbsp;&nbsp;&nbsp; <b>Attribute 1</b> – Link name / Add the link name
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 1</b> – Link name / Add the link name
 
-&nbsp;&nbsp;&nbsp; <b>Attribute 2</b> – link URL / Add the URL of the link (complete link including the https://)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 2</b> – link URL / Add the URL of the link (complete link including the https://)
 
-&nbsp;&nbsp;&nbsp; <b>Attribute 3</b> – Link that will be added by linkChecker / Must stay empty
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 3</b> – Link that will be added by linkChecker / Must stay empty
 
-&nbsp;&nbsp;&nbsp; <b>Attribute 4</b> – http status of the link, added by linkChecker adds it / Add 0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 4</b> – http status of the link, added by linkChecker adds it / Add 0
 
-&nbsp;&nbsp;&nbsp; <b>Attribute 5</b> – checked, 1 or 0 shows if link has been controlled or not, LinkChecker updates the value / Add 0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 5</b> – checked, 1 or 0 shows if link has been controlled or not, LinkChecker updates the value / Add 0
 
-&nbsp;&nbsp;&nbsp; <b>Attribute 6</b> – status, 1 or 0 shows the status of the link, 1 if it passes all the tests and 0 if there is some issue / Add 0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 6</b> – status, 1 or 0 shows the status of the link, 1 if it passes all the tests and 0 if there is some issue / Add 0
 
-&nbsp;&nbsp;&nbsp; <b>Attribute 7</b> – LinkMonitoring has five functions which help on finding the URL of the link. What value to add here depends on how your links are constructed. Available values: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>, <i>check_by_class</i>, <i>check_by_link_id</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 7</b> – LinkMonitoring has five functions which help on finding the URL of the link. What value to add here depends on how your links are constructed. Available values: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>, <i>check_by_class</i>, <i>check_by_link_id</i>
 
-#### 1 – check_by_parent_id
+####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 – check_by_parent_id
 DOM block example:
 
 `<li id="parent_id"><a href="https://www.somedomain/somepath/">Link text</a></li>`
