@@ -1,4 +1,4 @@
-# LinkMonitoring
+# LinkMonitoring Python + Selenium
 
 Automated tool for monitoring important links for any website or web App.
 Current version is available only for windows machines. I have a plan to convert it for Linux and Mac but as usual it will take some time :) 
