@@ -38,21 +38,21 @@ At this step from cmd point to your local repository and run the command:
 
 2. Create the object for the language of the pages where your important links are. First parameter is The name of the language and the second parameter is the ISO 2 code of a language/Country: 
 
-`lang = language.Language("English", "en")`
+    `lang = language.Language("English", "en")`
 
 
 3. Create the object for the language of the pages where your important links are. First parameter is The name of the language and the second parameter is the ISO 2 code of a language/Country: 
 
-`page_1 = language.Page("Home page", "https://en.wikibooks.org/wiki/Main_Page")`
+    `page_1 = language.Page("Home page", "https://en.wikibooks.org/wiki/Main_Page")`
 
 4. Assign the page to the language:
 
-`lang.push_page(page_1)`
+    `lang.push_page(page_1)`
 
 5. This way you can add as much as you want pages for a given language or websites.
 6. Define important links for a given page.
 
-`link1 = language.Linku("Featured Books", "https://en.wikibooks.org/wiki/Wikibooks:Featured_books", "", "0", "0", "0", "check_by_parent_id", "n-Featured-books", "")`
+    `link1 = language.Linku("Featured Books", "https://en.wikibooks.org/wiki/Wikibooks:Featured_books", "", "0", "0", "0", "check_by_parent_id", "n-Featured-books", "")`
 
 ###### this for all-important links that are present on page_1.  * 2nd, 7nth and 8th attributes you will need to find them inside the source code of the page where your important links are
 
