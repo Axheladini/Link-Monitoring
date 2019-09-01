@@ -1,7 +1,7 @@
 # LinkMonitoring
 
 Automated tool for monitoring important links for any website or web App.
-Current version is available only for windows machines. I have a plab to convert it for Linux and Mac but as usual it will take some time :) 
+Current version is available only for windows machines. I have a plan to convert it for Linux and Mac but as usual it will take some time :) 
 
 This is my first tool build with Python. If anyone finds any issues or a way to optimise the code feel free to comment and  contribute. 
 
