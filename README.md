@@ -21,6 +21,7 @@ At first, you create a dataset with links that you need to monitor. There is no 
 * python -m pip install selenium
 * python -m pip install requests
 * python -m pip install urllib3
+* python -m pip install tldextract
 
 
 2. Selenium uses chrome browser in headless mode to point to each page and find all links of corresponding page. Therefore, you will need to download the chromdriver.exe based on your chrome browser version. Click <a href="https://chromedriver.chromium.org/" target="_blank">https://chromedriver.chromium.org/</a> and download the version related to your chrome browser. Copy the exe file to “<b>C:\linkmonitoring\chromedriver.exe</b>” ( this path is important because the tool expects it exactly there ).
