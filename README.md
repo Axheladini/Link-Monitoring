@@ -21,7 +21,7 @@ At first, you create a dataset with links that you need to monitor. There is no 
 * python -m pip install urllib3
 
 
-2. Selenium uses chrome browser in headless mode to point to each page and find all links. Therefore, you will need to download the chromdriver.exe based on your chrome browser version. Click <a href="https://chromedriver.chromium.org/" target="_blank">https://chromedriver.chromium.org/</a> and download the version corresponding to your chrome browser. Copy the exe file to “<b>C:\linkmonitoring\chromedriver.exe</b>” ( this path is important because the tool expects it exactly in this ).
+2. Selenium uses chrome browser in headless mode to point to each page and find all links of corresponding page. Therefore, you will need to download the chromdriver.exe based on your chrome browser version. Click <a href="https://chromedriver.chromium.org/" target="_blank">https://chromedriver.chromium.org/</a> and download the version related to your chrome browser. Copy the exe file to “<b>C:\linkmonitoring\chromedriver.exe</b>” ( this path is important because the tool expects it exactly there ).
 
 3. Pull, clone or download the repository from GitHub <a href="https://github.com/Axheladini/Link-Monitoring" target="_blank">https://github.com/Axheladini/Link-Monitoring</a> The tool comes with pre-filed data (important links dataset) from wikibooks.org pages.
 At this step from cmd point to your local repository and run the command:
