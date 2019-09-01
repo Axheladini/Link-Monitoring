@@ -1,7 +1,7 @@
 # LinkMonitoring / Python + Selenium
 
-Automated tool for monitoring important links for any website or web App.
-This tool is useful for websites with high traffic, important business processes and important content which are updated at least once a day. On my daily work this tool monitors over 500 important links, execution time around 3 mins. We have connected it with Jenkins  and the whole monitoring proccess is automated.
+Automated tool for monitoring important links for any website or web App<br>
+This tool is useful for websites with high traffic, important business processes and important content which are updated at least once a day. On my daily work it monitors over 500 important links, execution time around 3 mins. We have incorporated it with Jenkins and the whole monitoring proccess is automated.
 
 Current version is available only for windows machines. I have a plan to convert it for Linux and Mac but as usual it will take some time :) 
 
