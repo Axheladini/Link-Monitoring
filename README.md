@@ -101,9 +101,10 @@ At this step from cmd point to your local repository and run the command:
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Check_by_tittle
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-    ```html 
-    <a href="https://www.somedomain/somepath/" title="Some Link title">Link text</a>
-    ```
+    
+   ```html
+   <a href="https://www.somedomain/somepath/" title="Some Link title">Link text</a>
+   ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example LinkMonitoring will find and test the link based on <b>title</b> attribute in this example is <b>Some Link title</b>
 
@@ -111,7 +112,7 @@ At this step from cmd point to your local repository and run the command:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
    ```html
-   	<a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">Link text</a>
+   <a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">Link text</a>
    ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example, LinkMonitoring will find and test the link based on <b>class name</b>. Having in mind that CSS classes <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;are not unique, I would suggest adding two classes when you use <b>check_by_class</b> function to find the link.</b>
@@ -120,9 +121,8 @@ At this step from cmd point to your local repository and run the command:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-    ```html 
-   <a href="https://www.somedomain/somepath/" id="link_main_id">
-   Link text</a>
+   ```html 
+   <a href="https://www.somedomain/somepath/" id="link_main_id">Link text</a>
    ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example, LinkMonitoring will find and test the link based on <b>element id</b>. Current example: <b>link_main_id</b>
