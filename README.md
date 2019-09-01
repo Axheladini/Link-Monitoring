@@ -57,12 +57,12 @@ At this step from cmd point to your local repository and run the command:
 
 ###### Repeat this for all-important links that are present on page_1.  * 2nd, 7nth and 8th attributes you will need to find them inside the source code of the page where your important links are
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 1</b> – Link name / Add the link name
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 2</b> – link URL / Add the URL of the link (complete link including the https://)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 3</b> – Link that will be added by linkChecker / Must stay empty
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 4</b> – http status of the link, added by linkChecker adds it / Add 0
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 5</b> – checked, 1 or 0 shows if link has been controlled or not, LinkChecker updates the value / Add 0
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 6</b> – status, 1 or 0 shows the status of the link, 1 if it passes all the tests and 0 if there is some issue / Add 0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 1</b> – Link name / Add the link name<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 2</b> – link URL / Add the URL of the link (complete link including the https://)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 3</b> – Link that will be added by linkChecker / Must stay empty<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 4</b> – http status of the link, added by linkChecker adds it / Add 0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 5</b> – checked, 1 or 0 shows if link has been controlled or not, LinkChecker updates the value / Add 0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 6</b> – status, 1 or 0 shows the status of the link, 1 if it passes all the tests and 0 if there is some issue / Add 0<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 7</b> – LinkMonitoring has five functions which help on finding the URL of the link. What value to add here<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; depends on how your links are constructed. Available values: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>check_by_class</i>, <i>check_by_link_id</i>
 
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. check_by_parent_id
@@ -107,8 +107,8 @@ Link text</a></p>`
 ###### * Suggestion: If the way that the links are presented on the web depends on you, I would suggest adding unique id names or unique title attributes because those two functions can find the link in faster and better way.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 8</b> – This attribute depends from Attribute 7. You will need to find this value in the source code based on the function you will use on Attribute 7 (Check above examples)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 9</b> – Leave this empty, this field is used from linkChecker to add details based on link status.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 8</b> – This attribute depends from Attribute 7. You will need to find this value in the source code based on the function you will use on Attribute 7 (Check above examples)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 9</b> – Leave this empty, this field is used from linkChecker to add details based on link status.<br>
 
 6. Connect each important link with corresponding page :
 
