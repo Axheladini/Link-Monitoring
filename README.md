@@ -114,26 +114,30 @@ Link text</a></p>`
 
     ` page_1.push_link(link1)`
 
-Connect each important link with corresponding page :
+Complete code on this stage for english.py would look like this: :
 
 <pre>
-` #create the language object*/
+`#create the language object*/
 lang = language.Language("English", "en") 
 
 #create the object of the first page where important links are*
-page_1 = language.Page("Home page", " https://en.altervista.org/")
+page_1 = language.Page("Home page", "https://en.wikibooks.org/wiki/Main_Page")
 
 #push this page to language object
 lang.push_page(page_1)
 
 #create the first important link object
-Link1 = language.Linku("Start Now", "https://en.altervista.org/registration.php", "", "0", "0", "0", "check_by_class", "button large", "")
+link1 = language.Linku("Featured Books", "https://en.wikibooks.org/wiki/Wikibooks:Featured_books", "", "0", "0", "0", "check_by_parent_id", "n-Featured-books", "")
 
 #Assign first important link object to the first page
 page_1.push_link(link1)`
 </pre>
 
+6. After you have added all pages and important links by repeating all sub steps point to your local repository and run the command: <b>python index.py</b> and the automated process will start. The execution time will depend on the number of the links. When the process will end a nice HTML report will show up with details for each link. Do not forget to update the dataset when you update or remove some important link from your website.
+
 ## Contributing
+
+If you decide to try or use this tool in your daily work, I would really appreciate if you use the comment form below to add your suggestions, experience, review comments etc. Also, use the same form to ask questions if you have difficulties to use or configure the tool.
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -143,12 +147,13 @@ page_1.push_link(link1)`
 
 ## History
 
-TODO: Write history
+LinkMonitoring 1.0
 
 ## Credits
 
-TODO: Write credits
+Agon Xheladini 
+www.agonxheladini.com 
 
 ## License
 
-TODO: Write license
+FOSS
