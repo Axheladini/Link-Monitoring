@@ -158,7 +158,7 @@ link1 = language.Linku("Featured Books", "https://en.wikibooks.org/wiki/Wikibook
 page_1.push_link(link1)
 ```
 
-6. After you have added all pages and important links by repeating all sub steps on cmd point to your local repository and run the command: <b>python index.py</b> the automated process will start. The execution time will depend on the number of links. When the process will end a nice HTML report will show up with details for each link. Do not forget to update the dataset when you update or remove some important link from your website.
+6. After you have added all pages and important links by repeating all sub steps on cmd point to your local repository and run the command: <b>python index.py</b> the automated process will start. The execution time will depend on the number of links. When the process will end a nice HTML report will show up with details for each link. Do not forget to update the dataset when you update or remove some important link on your website.
 
 ## Contributing
 
