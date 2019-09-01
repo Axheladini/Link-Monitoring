@@ -29,7 +29,8 @@ At this step from cmd point to your local repository and run the command:
 
 ## Importing your important links ( the dataset)
 
-1. This is the most important step, defining your dataset with important links. At this point, it is an advantage if you have object oriented programming knowledge and skills but I will try to explain the whole process in details so any WebDev, DevOps or Webmaster can understand it. Before going into details and reading bellow steps please check english.py and deutsch.py files under websites directory, the whole dataset logic is within these files. 
+1. This is the most important step, defining your dataset with important links. At this point, it is an advantage if you have object oriented programming knowledge and skills but I will try to explain the whole process in details so any WebDev, DevOps or Webmaster can understand it. 
+<i>Before going into details and reading bellow steps please check english.py and deutsch.py files under websites directory, the whole dataset logic is within these files.</i> 
 
     * The whole dataset of important link is under websites directory.
     * Do not update, change or modify __init__.py and config.py files, these are important files for the tool to run.
