@@ -69,7 +69,7 @@ At this step from cmd point to your local repository and run the command:
     ```
 
 ###### Repeat this for all-important links that are present on page_1.  * 2nd, 7nth and 8th attributes you will need to find them within the source code of the page where your important links are
-<b>Attributes:</b> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Attributes:</b> 
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 1</b> – Link name / Add the link name<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 2</b> – link URL / Add the URL of the link (complete link including the https://)<br>
@@ -82,7 +82,7 @@ At this step from cmd point to your local repository and run the command:
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. check_by_parent_id
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<li id="parent_id"><a href="https://www.somedomain/somepath/">Link text</a></li>`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```html <li id="parent_id"><a href="https://www.somedomain/somepath/">Link text</a></li> ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example LinkMonitoring will find and test the link based on parent id, in our example its <b>parent_id</b>
 
@@ -90,22 +90,22 @@ At this step from cmd point to your local repository and run the command:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<p><a href="https://www.somedomain/somepath/">Sample</a></p>`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```html <p><a href="https://www.somedomain/somepath/">Sample</a></p>```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example LinkMonitoring will find and test the link based on <b>link text</b> in this example its <b>Sample</b>
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Check_by_tittle
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<p><a href="https://www.somedomain/somepath/" title="Some Link title">Link text</a></p>`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```html <p><a href="https://www.somedomain/somepath/" title="Some Link title">Link text</a></p>```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example LinkMonitoring will find and test the link based on <b>title</b> attribute in this example is <b>Some Link title</b>
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. check_by_class
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<p><a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">
-Link text</a></p>`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```html <p><a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">
+Link text</a></p>```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example, LinkMonitoring will find and test the link based on <b>class name</b>. Having in mind that CSS classes <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;are not unique, I would suggest adding two classes when you use <b>check_by_class</b> function to find the link.</b>
 
@@ -113,8 +113,8 @@ Link text</a></p>`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<p><a href="https://www.somedomain/somepath/" id="link_main_id">
-Link text</a></p>`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```html <p><a href="https://www.somedomain/somepath/" id="link_main_id">
+Link text</a></p>```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example, LinkMonitoring will find and test the link based on <b>element id</b>. Current example: <b>link_main_id</b>
 
