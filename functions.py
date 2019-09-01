@@ -1,11 +1,8 @@
 from selenium.common.exceptions import NoSuchElementException
 import requests
 from websites import config
-from requests.auth import HTTPBasicAuth
 import json
-import base64
 import http.client
-import tldextract
 import time
 
 
