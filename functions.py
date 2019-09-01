@@ -18,18 +18,18 @@ def check_by_parent_id(drive, the_object, req):
               the_object.http_status = gethttpstatuscode(the_href, req)
               the_object.checked = "1"
               the_object.status = "1"
-              the_object.link_message = "Link found and is equal"
+              the_object.link_message = "The link found is the same as the one from dataset"
            else:
               the_object.link_url_found = the_href
               #r = req.get(the_object.link_url, stream=True)
               the_object.http_status = "wrong"
               the_object.checked = "1"
               the_object.status = "2"
-              the_object.link_message = "Link found but is not equal with the one in the dataset"
+              the_object.link_message = "The link found is not the same with the one from dataset"
 
      except NoSuchElementException as exception:
           
-            the_object.link_url_found = "Selenium was not able to find the elemen, check details"
+            the_object.link_url_found = "Selenium was not able to find the element, check details"
             the_object.http_status = "#"
             the_object.checked = "0"
             the_object.status = "3"
@@ -52,20 +52,20 @@ def check_by_a_text(drive, the_object, req):
                        the_object.http_status = gethttpstatuscode(a, req)
                        the_object.checked = "1"
                        the_object.status = "1"
-                       the_object.link_message = "Link found and is equal"
+                       the_object.link_message = "The link found is the same as the one from dataset"
                     else:
                        the_object.link_url_found = a
                        #r = req.get(the_object.link_url, stream=True)
                        the_object.http_status = "wrong"
                        the_object.checked = "1"
                        the_object.status = "2"
-                       the_object.link_message = "Link found but is not equal with the one in the dataset"
+                       the_object.link_message = "The link found is not the same with the one from dataset"
          else:
-           the_object.link_url_found = "Link text wrong"
+           the_object.link_url_found = "Link text is wrong"
            the_object.http_status = "Error"
            the_object.checked = "1"
            the_object.status = "0"
-           the_object.link_message = "Link text not equal with the one in dataset. Check if link was updated on your web app!"
+           the_object.link_message = "The link text is not the same with the one from dataset. Check if link was updated on your website!"
 
     except NoSuchElementException as exception:
           
@@ -73,7 +73,7 @@ def check_by_a_text(drive, the_object, req):
             the_object.http_status = "#"
             the_object.checked = "0"
             the_object.status = "3"
-            the_object.link_message = "Element not found, please check if you inserted wrong 'Link Text' or html output is updated"
+            the_object.link_message = "Element not found, please check if you inserted wrong link text or html output is updated"
 
 
 #Function to find the href value by the tittle attribute. check_by_value = check_by_tittle
@@ -88,13 +88,13 @@ def check_by_title_attr(drive, the_object, req):
                        the_object.http_status = gethttpstatuscode(a, req)
                        the_object.checked = "1"
                        the_object.status = "1"
-                       the_object.link_message = "Link found and is equal"
+                       the_object.link_message = "The link found is the same as the one from dataset"
             else:
                        the_object.link_url_found = a
                        the_object.http_status = "wrong"
                        the_object.checked = "1"
                        the_object.status = "2"
-                       the_object.link_message = "Link found but is not equal with the one in the dataset"
+                       the_object.link_message = "The link found is not the same with the one from dataset"
 
     except NoSuchElementException as exception:
           
@@ -102,7 +102,7 @@ def check_by_title_attr(drive, the_object, req):
             the_object.http_status = "#"
             the_object.checked = "0"
             the_object.status = "3"
-            the_object.link_message = "Element not found, please check if you inserted wrong 'tittle attribute' or html output is updated"
+            the_object.link_message = "Element not found, please check if you inserted wrong tittle attribute or html output is updated"
 
 
 
@@ -126,14 +126,14 @@ def check_by_class_name(drive, the_object, req):
                    the_object.http_status = gethttpstatuscode(a, req)
                    the_object.checked = "1"
                    the_object.status = "1"
-                   the_object.link_message = "Link found and is equal"
+                   the_object.link_message = "The link found is the same as the one from dataset"
         else:  
                    the_object.link_url_found = a
                    #r = req.get(the_object.link_url, stream=True)
                    the_object.http_status = "wrong"
                    the_object.checked = "1"
                    the_object.status = "2"
-                   the_object.link_message = "Link found but is not equal with the one in the dataset"
+                   the_object.link_message = "The link found is not the same with the one from dataset"
 
    except NoSuchElementException as exception:
 
@@ -141,7 +141,7 @@ def check_by_class_name(drive, the_object, req):
         the_object.http_status = "#"
         the_object.checked = "0"
         the_object.status = "3"
-        the_object.link_message = "Element not found, please check if you inserted wrong 'Class names' or html output is updated"
+        the_object.link_message = "Element not found, please check if you inserted wrong class names or html output is updated"
 
 
 
@@ -155,14 +155,14 @@ def check_by_link_id(drive, the_object, req):
               the_object.http_status = gethttpstatuscode(a, req)
               the_object.checked = "1"
               the_object.status = "1"
-              the_object.link_message = "Link found and is equal"
+              the_object.link_message = "The link found is the same as the one from dataset"
            else:
              the_object.link_url_found = the_href
              #r = req.get(the_object.link_url, stream=True)
              the_object.http_status = "wrong"
              the_object.checked = "1"
              the_object.status = "2"
-             the_object.link_message = "Link found but is not equal with the one in the dataset"
+             the_object.link_message = "The link found is not the same with the one from dataset"
        
       except NoSuchElementException as exception:
           
@@ -170,7 +170,7 @@ def check_by_link_id(drive, the_object, req):
            the_object.http_status = "#"
            the_object.checked = "0"
            the_object.status = "3"
-           the_object.link_message = "Element not found, please check if you inserted wrong 'element id' or html output is updated"
+           the_object.link_message = "Element not found, please check if you inserted wrong element id or html output is updated"
 
 
 

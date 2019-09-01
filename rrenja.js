@@ -27,7 +27,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_class",
                         "check_by_value": "mw-wiki-logo",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Elektrotechnik",
@@ -38,7 +38,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_text",
                         "check_by_value": "Elektrotechnik",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Kleiner F\u00fchrer zu Burgen",
@@ -49,7 +49,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_tittle",
                         "check_by_value": "Kleiner F\u00fchrer zu Burgen, Schl\u00f6ssern und Rittersitzen: Essen und Umgebung",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     }
                 ]
             },
@@ -66,7 +66,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_tittle",
                         "check_by_value": "Kategorie:Regal",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Links auf diese Seite",
@@ -77,7 +77,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_text",
                         "check_by_value": "Links auf diese Seite",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Algorithms",
@@ -88,7 +88,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_text",
                         "check_by_value": "Spezialseiten",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Wikimedia Foundaition",
@@ -144,7 +144,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_class",
                         "check_by_value": "mw-wiki-logo",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Engineering",
@@ -155,7 +155,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_text",
                         "check_by_value": "Engineering",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Reading room",
@@ -166,7 +166,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_tittle",
                         "check_by_value": "Discuss Wikibooks-related questions and concerns with others",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     }
                 ]
             },
@@ -183,7 +183,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_tittle",
                         "check_by_value": "Category:Book:Wikibooks Stacks/Departments",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Ada Programming",
@@ -194,7 +194,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_text",
                         "check_by_value": "Ada Programming",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Algorithms",
@@ -205,7 +205,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_text",
                         "check_by_value": "Algorithms",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Wikimedia Foundaition",
