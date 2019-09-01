@@ -37,12 +37,12 @@ At this step from cmd point to your local repository and run the command:
 ## Importing your important links ( the dataset )
 
 1. This is the most important step, defining your dataset with important links. At this point it is an advantage if you have object oriented programming knowledge and skills but I will try to explain the whole process in details so any WebDev, DevOps or Webmaster can understand it. 
-<br>
+
 <i><br>Before going into details please check english.py and deutsch.py files under websites directory, the whole dataset logic is within these files.</i> 
 
     * The whole dataset of important link is under websites directory.
     * Do not update, change or modify <b>__init__.py</b> and <b>config.py</b> files, these are important files for the tool to run.
-    * I always create a separate dataset file for each language of the website.  you can see inside websites directory I have created engllish.py, deutsch.py … You can name these files as you wish but you must follow one convention: use only letters and no special characters (like: *&^%$#@!~_+-?/).
+    * I always create a separate dataset file for each language of the website. As you can see inside websites directory I have created engllish.py and deutsch.py. You can name these files as you wish but you must follow one convention: use only letters and no special characters (like: *&^%$#@!~_+-?/).
     * Each dataset file should have the header code where some modules are imported. (Check the line that starts with DO NOT on english.py file).
 
 2. Create the object for the language of the pages where your important links are. First parameter is The name of the language and the second parameter is the ISO 2 code of a language/Country: 
