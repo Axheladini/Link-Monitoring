@@ -16,7 +16,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_parent_id",
                         "check_by_value": "n-portal",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Main Logo",
@@ -99,7 +99,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_parent_id",
                         "check_by_value": "footer-copyrightico",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Mediawiki",
@@ -110,7 +110,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_parent_id",
                         "check_by_value": "footer-poweredbyico",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     }
                 ]
             }
@@ -133,7 +133,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_parent_id",
                         "check_by_value": "n-Featured-books",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Main Logo",
@@ -216,7 +216,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_parent_id",
                         "check_by_value": "footer-copyrightico",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     },
                     {
                         "link_text": "Mediawiki",
@@ -227,7 +227,7 @@ var result = [{
                         "status": "1",
                         "check_by": "check_by_parent_id",
                         "check_by_value": "footer-poweredbyico",
-                        "link_message": "Link found and is equal"
+                        "link_message": "The link found is the same as the one from dataset"
                     }
                 ]
             }
