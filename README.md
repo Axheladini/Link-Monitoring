@@ -10,13 +10,13 @@ web app  are working as expected. Actually, it's a pre or post deployment tool t
 
 ## How it works
 
-At first, you create a dataset with links that you need to test. There is no user interface for importing your important links with the current version, therefore you will need to add important links as python objects ( Check Usage section ). Python by using Selenium with headless chrome (browser) points to each page where we have our important links, finds each important link by using one out of four functions: check_by_parent_id, check_by_text, check_by_tittle, check_by_class, check_by_link_id. The link found is compared with the one in the dataset and at the end Python checks for the HTTP request code of the link. After all links are visited and controlled the tool  generates an in detail html report with the results for each link.
+At first, you create a dataset with links that you need to test. There is no user interface for importing your important links with the current version, therefore you will need to add important links as python objects ( Check Usage section ). Python by using Selenium with headless chrome (browser) points to each page where we have our important links, finds each important link by using one out of four functions: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>, <i>check_by_class</i>, check_by_link_id</i>. The link found is compared with the one in the dataset and at the end Python checks for the HTTP request code of the link. After all links are visited and controlled the tool  generates an in detail html report with the results for each link.
 
 ## Usage
 
 1. If Python is not installed at your machine, dowanload it from <a href="https://www.python.org/downloads/">www.python.org/downloads/</a> . I have installed Python 3.6
 
-2. Selenium uses chrome browser in headless mode to point to each page and find all links. Therefore, you will need to download the chromdriver.exe version based on your chrome browser version. Click on this <a href="https://chromedriver.chromium.org/" target="_blank">link</a> and download the version corresponding to your chrome browser. Copy the exe file to “C:\linkmonitoring\chromedriver.exe” (this path is important because the tool expects it exactly in this location).
+2. Selenium uses chrome browser in headless mode to point to each page and find all links. Therefore, you will need to download the chromdriver.exe version based on your chrome browser version. Click on this <a href="https://chromedriver.chromium.org/" target="_blank">link</a> and download the version corresponding to your chrome browser. Copy the exe file to “<b>C:\linkmonitoring\chromedriver.exe</b>” (this path is important because the tool expects it exactly in this location).
 
 3. Pull, clone or download the repository from GitHub <a href="https://github.com/Axheladini/Link-Monitoring" target="_blank">Link</a> The tool comes with pre-filed data (important links dataset) from altervista.org pages.
 At this step from cmd point to your local repository and run the command:
@@ -29,8 +29,12 @@ At this step from cmd point to your local repository and run the command:
 
 ## Importing your important links ( the dataset)
 
-1. This is the most important step, defining your dataset with important links. At this point, it is an advantage if you have object oriented programming knowledge and skills but I will try to explain the whole process in details so any WebDev, DevOps or Webmaster can understand it.
+1. This is the most important step, defining your dataset with important links. At this point, it is an advantage if you have object oriented programming knowledge and skills but I will try to explain the whole process in details so any WebDev, DevOps or Webmaster can understand it. Before going into details and reading bellow steps please check english.py and deutsch.py files under websites directory, the whole dataset logic is within these files. 
 
+ * The whole dataset of important link is under websites directory.
+ * Do not update, change or modify __init__.py and config.py files, these are important files for the tool to run.
+ * I always create a separate dataset file for each language of the website for which I need to test important links. If you can see inside websites directory I have created engllish.py, deutsch.py … You can name these files as you wish but you must follow one convention: use only letters, no special characters (like: *&^%$#@!~_+-?/).
+ * Each dataset file should have the header code where some modules are imported. (Check the line that starts with DO NOT on english.py file)
 ## Contributing
 
 1. Fork it!
