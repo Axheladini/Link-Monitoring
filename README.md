@@ -69,14 +69,14 @@ At this step from cmd point to your local repository and run the command:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 6</b> – status, 1 or 0 shows the status of the link, 1 if it passes all the tests and 0 if there is some issue / Add 0
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 7</b> – LinkMonitoring has five functions which help on finding the URL of the link. What value to add here depends on how your links are constructed. Available values: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>, <i>check_by_class</i>, <i>check_by_link_id</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 7</b> – LinkMonitoring has five functions which help on finding the URL of the link. What value to add here<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; depends on how your links are constructed. Available values: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>check_by_class</i>, <i>check_by_link_id</i>
 
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 – check_by_parent_id
-DOM block example:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM block example:
 
-`<li id="parent_id"><a href="https://www.somedomain/somepath/">Link text</a></li>`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<li id="parent_id"><a href="https://www.somedomain/somepath/">Link text</a></li>`
 
-In this example LinkChecker will find and control the link based on parent id, in our example its <b>parent_id</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this example LinkChecker will find and control the link based on parent id, in our example its <b>parent_id</b>
 
 #### 2 – check_by_text
 
