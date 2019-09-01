@@ -57,7 +57,7 @@ At this step from cmd point to your local repository and run the command:
 
 ###### Repeat this for all-important links that are present on page_1.  * 2nd, 7nth and 8th attributes you will need to find them inside the source code of the page where your important links are
 
-```<b>Attribute 1</b> – Link name / Add the link name
+<b>Attribute 1</b> – Link name / Add the link name
 
 <b>Attribute 2</b> – link URL / Add the URL of the link (complete link including the https://)
 
@@ -71,7 +71,44 @@ At this step from cmd point to your local repository and run the command:
 
 <b>Attribute 7</b> – LinkMonitoring has five functions which help on finding the URL of the link. What value to add here depends on how your links are constructed. Available values: <i>check_by_parent_id</i>, <i>check_by_text</i>, <i>check_by_tittle</i>, <i>check_by_class</i>, <i>check_by_link_id</i>
 
+###1 – check_by_parent_id
+DOM block example:
 
+`<li id="parent_id"><a href="https://www.somedomain/somepath/">Link text</a></li>`
+
+In this example LinkChecker will find and control the link based on parent id, in our example its <b>parent_id</b>
+
+###2 – check_by_text
+
+DOM block example:
+
+`<p><a href="https://www.somedomain/somepath/">Sample</a></p>`
+
+In this example LinkChecker will find and control the link based on <b>link text</b> in this example its <b>Sample</b>
+
+###3 – Check_by_tittle
+DOM block example:
+
+`<p><a href="https://www.somedomain/somepath/" title="Some Link title">Link text</a></p>`
+
+In this example LinkChecker will find and control the link based on <b>title</b> attribute in this example is <b>Some Link title</b>
+
+###4 – check_by_class
+DOM block example:
+
+`<p><a href="https://www.somedomain/somepath/" class="class_name_one class_name_two">
+Link text</a></p>`
+
+In this example, LinkChecker will find and control the link based on <b>class name</b>. Having in mind that CSS classes are not unique, I would suggest adding two classes when you use <b>check_by_class</b> function to find the link.</b>
+
+###5 – check_by_link_id
+
+DOM block example:
+
+`<p><a href="https://www.somedomain/somepath/" id="link_main_id">
+Link text</a></p>`
+
+In this example, LinkChecker will find and control the link based on <b>element id</b>. Current example: <b>link_main_id</b>
 
 ## Contributing
 
