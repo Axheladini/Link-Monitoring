@@ -130,7 +130,7 @@ At this step from cmd point to your local repository and run the command:
 ###### * Suggestion: If the way that the links are presented on the web depends on you, I would suggest adding unique id names or unique title attributes because these two functions can find the link in faster and better way.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 8</b> – This attribute depends from Attribute 7. You will need to find this value in the source code based on the function you will use on Attribute 7 (Check above examples)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 8</b> – This attribute depends from Attribute 7. You will need to find this value in the source code based on the<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function you will use on Attribute 7 (Check above examples)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attribute 9</b> – Leave this empty, this field is used from LinkMonitoring to add details based on link status.<br>
 
 6. Connect each important link with corresponding page :
